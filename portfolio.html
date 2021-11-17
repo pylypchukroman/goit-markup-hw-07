@@ -16,9 +16,9 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
     />
     <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/main.min.css" />
   </head>
   <body>
-    <!--Хедер-->
     <!--Хедер-->
     <header class="page-header">
       <div class="container main-nav">
@@ -326,10 +326,14 @@
               <p class="address">г. Киев, пр-т Леси Украинки, 26</p>
               <ul class="contacts">
                 <li class="contact-list">
-                  <a href="mailto:info@devstudio.com">info@devstudio.com</a>
+                  <a class="contacts-link" href="mailto:info@devstudio.com"
+                    >info@devstudio.com</a
+                  >
                 </li>
                 <li class="contact-list">
-                  <a href="tel:+380961111111">+38 096 111 11 11</a>
+                  <a class="contacts-link" href="tel:+380961111111"
+                    >+38 096 111 11 11</a
+                  >
                 </li>
               </ul>
             </address>
@@ -380,8 +384,13 @@
 
             <form name="signup_form" autocomplete="on" novalidate>
               <div class="subscription-fild">
-                <input type="email" name="email" placeholder="E-mail" />
-                <button type="submit">
+                <input
+                  class="subscription-form"
+                  type="email"
+                  name="email"
+                  placeholder="E-mail"
+                />
+                <button class="subscription-btn" type="submit">
                   Подписаться
                   <div class="icon-send">
                     <svg class="icon-send-img">

@@ -1,0 +1,76 @@
+.social-media {
+  display: flex;
+  padding-left: 0;
+  margin: 0 32px;
+  width: 206px;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.icon-img {
+  width: 20px;
+  height: 20px;
+  fill: var(--color3, #afb1b8);
+  border-radius: 4px;
+  object-fit: contain;
+}
+.icon-link {
+  width: 44px;
+  height: 44px;
+  background-color: var(--primary-white);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  &:hover,
+  &:focus {
+    background-color: var(--accent-color);
+    fill: white;
+  }
+  &:hover,
+  &:focus {
+    .icon-img {
+      fill: white;
+    }
+  }
+}
+.social-media-link {
+  margin-right: 10px;
+  &:last-child {
+    margin-right: 0;
+  }
+}
+// .social-media-link:last-child {
+//   margin-right: 0;
+// }
+// .social-media-link {
+//     &:last-child {
+//     margin-right: 0;
+//     }
+// }
+// .icon-link:hover,
+// .icon-link:focus {
+//   background-color: var(--accent-color);
+//   fill: white;
+// }
+// .icon-link {
+//     &:hover,
+//     :focus {
+//     background-color: var(--accent-color);
+//     fill: white;
+//     }
+// }
+
+// .icon-link:hover .icon-img,
+// .icon-link:focus .icon-img {
+//   fill: white;
+// }
+// .icon-link {
+//     &:hover,
+//     :focus {
+//         .icon-img {
+//             fill: white;
+//         }
+//     }
+// }
