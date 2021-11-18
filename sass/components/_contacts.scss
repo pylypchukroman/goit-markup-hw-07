@@ -20,21 +20,11 @@
     color: var(--accent-color);
   }
 }
-// .cont-nav-link:hover,
-// .cont-nav-link:focus {
-//   color: var(--accent-color);
-// }
-// .cont-nav .link {
-//   margin-right: 50px;
-// }
 .cont-nav {
   .link {
     margin-right: 50px;
   }
 }
-// .cont-nav .link:last-child {
-//   margin-right: 0;
-// }
 .cont-nav {
   .link {
     &:last-child {
@@ -56,10 +46,6 @@
   height: 16px;
   align-items: baseline;
 }
-// .cont-nav-link:hover .footer-contacts-icon,
-// .cont-nav-link:focus .footer-contacts-icon {
-//   fill: var(--accent-color);
-// }
 .cont-nav-link {
   &:hover,
   &:focus {

@@ -9,7 +9,7 @@
 .join {
   margin-left: 70px;
 }
-.join-txt {
+.join__txt {
   margin-bottom: 20px;
   font-weight: 600;
   font-size: 14px;
@@ -17,29 +17,4 @@
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--primary-white);
-}
-.join {
-  .social-media {
-    margin-left: 0;
-    margin-right: 0;
-  }
-}
-.join {
-  .icon-link {
-    background: rgba(255, 255, 255, 0.1);
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  }
-}
-.join {
-  .icon-link {
-    &:hover,
-    &:focus {
-      background-color: var(--accent-color);
-    }
-  }
-}
-.join {
-  .icon-img {
-    fill: var(--primary-white);
-  }
 }

@@ -2,17 +2,20 @@
   padding-bottom: 94px;
   padding-top: 82px;
 }
+.filter {
+  margin-top: 0;
+  margin-bottom: 50px;
+  padding-left: 0;
+  display: flex;
+  justify-content: center;
+}
 .filter-btn {
   margin-right: 8px;
   &:last-child {
     margin-right: 0;
   }
 }
-// .filter-btn {
-//     &:last-child {
-//     margin-right: 0;
-//     }
-// }
+
 .projects-filter {
   margin-top: 94px;
 }
@@ -47,12 +50,3 @@
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
 }
-// .filter-button {
-//     &:hover,
-//     &:focus {
-//     color: var(--primary-white);
-//     background-color: var(--accent-color);
-//     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
-//     0px 2px 2px rgba(0, 0, 0, 0.12);
-//     }
-// }

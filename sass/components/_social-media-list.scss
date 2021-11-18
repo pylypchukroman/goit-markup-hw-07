@@ -1,4 +1,4 @@
-.social-media {
+.team-list__social-media {
   display: flex;
   padding-left: 0;
   margin: 0 32px;
@@ -6,14 +6,14 @@
   justify-content: space-evenly;
   align-items: center;
 }
-.icon-img {
+.social-media__img {
   width: 20px;
   height: 20px;
   fill: var(--color3, #afb1b8);
   border-radius: 4px;
   object-fit: contain;
 }
-.icon-link {
+.social-media__icon {
   width: 44px;
   height: 44px;
   background-color: var(--primary-white);
@@ -30,47 +30,14 @@
   }
   &:hover,
   &:focus {
-    .icon-img {
+    .social-media__img {
       fill: white;
     }
   }
 }
-.social-media-link {
+.social-media__link {
   margin-right: 10px;
   &:last-child {
     margin-right: 0;
   }
 }
-// .social-media-link:last-child {
-//   margin-right: 0;
-// }
-// .social-media-link {
-//     &:last-child {
-//     margin-right: 0;
-//     }
-// }
-// .icon-link:hover,
-// .icon-link:focus {
-//   background-color: var(--accent-color);
-//   fill: white;
-// }
-// .icon-link {
-//     &:hover,
-//     :focus {
-//     background-color: var(--accent-color);
-//     fill: white;
-//     }
-// }
-
-// .icon-link:hover .icon-img,
-// .icon-link:focus .icon-img {
-//   fill: white;
-// }
-// .icon-link {
-//     &:hover,
-//     :focus {
-//         .icon-img {
-//             fill: white;
-//         }
-//     }
-// }
